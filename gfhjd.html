@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>#bookbikemaindiv {
+        padding-top: 30px; 
+         background-image: linear-gradient(to top, rgb(254, 179, 87), rgb(255, 211, 155)); 
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          height: 100%;
+          margin-top: 100px;
+         
+      }
+      
+      #bookbikemaindiv img {
+          width: 100%;
+      }
+      #bookbikebtn{
+        background-color: #ff8800;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        height: 40px;
+        width: 200px;
+      }
+      </style>
+</head>
+<body>
+    <div class="container-fluid" id="bookbikemaindiv">
+        <div class="container">
+            <div class="row">
+                <!-- form part -->
+                <div class="col-md-6">
+                    <div class="text-center mt-4 fw-bold fs-2">
+                        <p>
+                            Book Now Bike
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="col-lg-6" id="bookbikeformdiv">
+                        <form id="bookform">
+                            <!-- name and email -->
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Name and Surname</label>
+                                    <input type="text" class="form-control my-2" id="inputEmail4"
+                                        placeholder="Enter your name and surname">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">Email Address</label>
+                                    <input type="email" class="form-control my-2" id="inputPassword4"
+                                        placeholder="Enter your email address">
+                                </div>
+                            </div>
+    
+                            <!-- number and service type -->
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputNumberl4">Telephone Number</label>
+                                    <input type="number" class="form-control my-2" id="inputEmail4"
+                                        placeholder="Enter your telephone number">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">Service Type</label>
+                                    <input type="text" class="form-control my-2" id="inputPassword4"
+                                        placeholder="Enter your email address">
+                                </div>
+                            </div>
+    
+                            <!-- date and time -->
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <div class="content">
+                                        <div class="form-group">
+                                            <label for="input_from">Select Date</label>
+                                            <input type="date" class="form-control my-2" id="input"
+                                                placeholder="Select the date">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">Time</label>
+                                    <input type="time" class="form-control my-2" id="inputPassword4"
+                                        placeholder="Enter your email address">
+                                </div>
+                            </div>
+                            <div class="text-center my-2">
+                                <button id="bookbikebtn">
+                                    Book Now
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+    
+                    <!-- bike image -->
+                    <div class="col-lg-6">
+                        <img src="./img/" id="bikeimage">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
